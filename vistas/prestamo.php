@@ -533,7 +533,44 @@
           function calcularAmortizacionPlazoIndefinido(cuotaQty, montoPresta, interes) {
               // Cálculos para la amortización "plazo indefinido"
               // ...
+              var fpago = Number($("#select_f_pago").val());
+              var startDate = $("#text_fecha").val();
+              var repaymentInterval = fpago === 2 ? 'week' :
+                  fpago === 3 ? 'biweekly' : fpago === 4 ? 'month' : fpago === 7 ? 'year' : ''
+              if (repaymentInterval !== '') {
 
+                  const url = `https://loan-amortization-schedule-calculator.p.rapidapi.com/v1/?annualInterestRate=${interes}&startDate=${startDate}&installmentCount=${cuotaQty}&principalAmount=${montoPresta}&repaymentInterval=${repaymentInterval}`;
+                  const options = {
+                      method: 'GET',
+                      headers: {
+                          'X-RapidAPI-Key': 'c7eb718d8dmsh1f8cd1134084fa1p1a5e30jsn158b7d98dd0a',
+                          'X-RapidAPI-Host': 'loan-amortization-schedule-calculator.p.rapidapi.com'
+                      }
+                  };
+
+                  fetch(url, options).then((response) => response.json())
+                      .then(result => {
+                          var totalInteres = 0.0;
+                          var totalAmount = 0.0;
+                          let cnt = Number(result.repaymentSchedule.installments.length);
+                          for (var i = 0; i < cnt; i++) {
+                              //Formato fechas
+                              totalInteres += Number(result.repaymentSchedule.installments[i].principalAmount);
+                              totalAmount += Number(result.repaymentSchedule.installments[i].installmentAmount);
+                              let datos_agregar = "<tr id='" + i + "'>";
+                              datos_agregar = datos_agregar + "<td for='id'> " + (i + 1) + "</td>";
+                              datos_agregar = datos_agregar + "<td>" + result.repaymentSchedule.installments[i].dueDate + "</td>";
+                              datos_agregar = datos_agregar + "<td>" + result.repaymentSchedule.installments[i].principalAmount + "</td>";
+                              datos_agregar = datos_agregar + "</tr>";
+                              $("#tbody_tabla_detalle_pro").append(datos_agregar);
+                          }
+                          console.log(totalAmount, totalInteres, cnt)
+                          $("#text_monto_por_cuota").val(parseFloat(totalAmount / cnt).toFixed(2));
+                          $("#text_interes_cliente").val(parseFloat(totalInteres / cnt).toFixed(2));
+                          $("#text_interes_resultado").val(parseFloat(totalInteres).toFixed(2));
+                          $("#text_total_resultado").val(parseFloat(totalAmount).toFixed(2));
+                      }).catch(err => console.log(err))
+              }
               // Actualización de los elementos en el DOM
               // ...
           }
@@ -746,7 +783,6 @@
               var cliente = $("#text_doc_dn").val();
 
 
-
               if (monto == 0) {
                   Toast.fire({
                       icon: 'warning',
@@ -835,7 +871,6 @@
                   $("#btnCalcular").attr('hidden', true);
 
 
-
                   var i = 0;
                   var count = 1;
                   let element = {};
@@ -858,56 +893,59 @@
                   let trimestral = moment(fecha);
                   let semestral = moment(fecha);
                   let anual = moment(fecha);
+                  var amortizacion = $("#select_amortizacion").val();
                   //mes_actual.add(1, 'month'); ´7 calcular despues de un mes
 
+                  if (amortizacion !== 'plazo_indefinido') {
+                      console.log(amortizacion)
+                      for (var i; i < cuota; i++) {
+                          //Formato fechas
 
-                  for (var i; i < cuota; i++) {
-                      //Formato fechas
-
-                      if (fpago == 1) { // DIARIO
-                          //fechas[i] = diario.format('DD-MM-YYYY');
-                          fechas[i] = diario.format('YYYY-MM-DD');
-                          diario.add(1, 'days');
+                          if (fpago == 1) { // DIARIO
+                              //fechas[i] = diario.format('DD-MM-YYYY');
+                              fechas[i] = diario.format('YYYY-MM-DD');
+                              diario.add(1, 'days');
 
 
-                      } else if (fpago == 2) { // SEMANAL
-                          fechas[i] = semanal.format('YYYY-MM-DD');
-                          semanal.add(1, 'week');
+                          } else if (fpago == 2) { // SEMANAL
+                              fechas[i] = semanal.format('YYYY-MM-DD');
+                              semanal.add(1, 'week');
 
-                      } else if (fpago == 3) { // QUINCENAL
-                          fechas[i] = quincenal.format('YYYY-MM-DD');
-                          quincenal.add(+14, 'days');
+                          } else if (fpago == 3) { // QUINCENAL
+                              fechas[i] = quincenal.format('YYYY-MM-DD');
+                              quincenal.add(+14, 'days');
 
-                      } else if (fpago == 4) { // MENSUAL
-                          fechas[i] = mes_actual.format('YYYY-MM-DD');
-                          mes_actual.add(1, 'month');
+                          } else if (fpago == 4) { // MENSUAL
+                              fechas[i] = mes_actual.format('YYYY-MM-DD');
+                              mes_actual.add(1, 'month');
 
-                      } else if (fpago == 5) { // BIMESTRAL
-                          fechas[i] = bimestral.format('YYYY-MM-DD');
-                          bimestral.add(+2, 'month');
+                          } else if (fpago == 5) { // BIMESTRAL
+                              fechas[i] = bimestral.format('YYYY-MM-DD');
+                              bimestral.add(+2, 'month');
 
-                      } else if (fpago == 6) { // SEMESTRAL
-                          fechas[i] = semestral.format('YYYY-MM-DD');
-                          semestral.add(+6, 'month');
+                          } else if (fpago == 6) { // SEMESTRAL
+                              fechas[i] = semestral.format('YYYY-MM-DD');
+                              semestral.add(+6, 'month');
 
-                      } else if (fpago == 7) { // ANUAL
-                          fechas[i] = anual.format('YYYY-MM-DD');
-                          anual.add(1, 'year');
+                          } else if (fpago == 7) { // ANUAL
+                              fechas[i] = anual.format('YYYY-MM-DD');
+                              anual.add(1, 'year');
 
-                      } else {
-                          console.log('sdf')
+                          } else {
+                              console.log('sdf')
+
+                          }
+
+                          let datos_agregar = "<tr id='" + count + "'>";
+                          datos_agregar = datos_agregar + "<td for='id'> " + count++; + "</td>";
+                          datos_agregar = datos_agregar + "<td>" + fechas[i] + "</td>";
+                          datos_agregar = datos_agregar + "<td>" + montocuota + "</td>";
+                          datos_agregar = datos_agregar + "</tr>";
+                          $("#tbody_tabla_detalle_pro").append(datos_agregar);
+
+                          cant1 = parseFloat(cant1) + parseFloat(montocuota);
 
                       }
-
-                      let datos_agregar = "<tr id='" + count + "'>";
-                      datos_agregar = datos_agregar + "<td for='id'> " + count++; + "</td>";
-                      datos_agregar = datos_agregar + "<td>" + fechas[i] + "</td>";
-                      datos_agregar = datos_agregar + "<td>" + montocuota + "</td>";
-                      datos_agregar = datos_agregar + "</tr>";
-                      $("#tbody_tabla_detalle_pro").append(datos_agregar);
-
-                      cant1 = parseFloat(cant1) + parseFloat(montocuota);
-
                   }
 
               }
