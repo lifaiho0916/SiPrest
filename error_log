@@ -1,0 +1,213 @@
+[05-May-2023 23:10:55 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:18
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(16): UsuarioModelo::mdlIniciarSesion('gmasias', '$2a$07$azybxcag...')
+#1 /home/iokxowfr/public_html/siprest3/vistas/login.php(76): UsuarioControlador->login()
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(221): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 18
+[05-May-2023 23:11:34 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:18
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(16): UsuarioModelo::mdlIniciarSesion('gmasias', '$2a$07$azybxcag...')
+#1 /home/iokxowfr/public_html/siprest3/vistas/login.php(76): UsuarioControlador->login()
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(221): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 18
+[05-May-2023 23:12:03 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:18
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(16): UsuarioModelo::mdlIniciarSesion('gmasias', '$2a$07$azybxcag...')
+#1 /home/iokxowfr/public_html/siprest3/vistas/login.php(76): UsuarioControlador->login()
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(221): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 18
+[05-May-2023 23:12:57 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:18
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(16): UsuarioModelo::mdlIniciarSesion('jaberroa', '$2a$07$azybxcag...')
+#1 /home/iokxowfr/public_html/siprest3/vistas/login.php(76): UsuarioControlador->login()
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(221): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 18
+[05-May-2023 23:36:43 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:18
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(16): UsuarioModelo::mdlIniciarSesion('jaberroa', '$2a$07$azybxcag...')
+#1 /home/iokxowfr/public_html/siprest3/vistas/login.php(76): UsuarioControlador->login()
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(221): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 18
+[05-May-2023 23:37:05 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:18
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(16): UsuarioModelo::mdlIniciarSesion('gmasias', '$2a$07$azybxcag...')
+#1 /home/iokxowfr/public_html/siprest3/vistas/login.php(76): UsuarioControlador->login()
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(221): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 18
+[05-May-2023 23:38:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:18
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(16): UsuarioModelo::mdlIniciarSesion('gmasias', '$2a$07$azybxcag...')
+#1 /home/iokxowfr/public_html/siprest3/vistas/login.php(76): UsuarioControlador->login()
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(221): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 18
+[06-May-2023 00:26:31 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:18
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(16): UsuarioModelo::mdlIniciarSesion('gmasias', '$2a$07$azybxcag...')
+#1 /home/iokxowfr/public_html/siprest3/vistas/login.php(76): UsuarioControlador->login()
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(221): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 18
+[06-May-2023 00:28:30 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:18
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(16): UsuarioModelo::mdlIniciarSesion('gmasias', '$2a$07$azybxcag...')
+#1 /home/iokxowfr/public_html/siprest3/vistas/login.php(76): UsuarioControlador->login()
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(221): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 18
+[06-May-2023 00:28:50 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:18
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(16): UsuarioModelo::mdlIniciarSesion('gmasias', '$2a$07$azybxcag...')
+#1 /home/iokxowfr/public_html/siprest3/vistas/login.php(76): UsuarioControlador->login()
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(221): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 18
+[06-May-2023 00:31:12 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:18
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(16): UsuarioModelo::mdlIniciarSesion('gmasias', '$2a$07$azybxcag...')
+#1 /home/iokxowfr/public_html/siprest3/vistas/login.php(76): UsuarioControlador->login()
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(221): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 18
+[06-May-2023 00:35:39 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:48
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(48): UsuarioModelo::mdlObtenerMenuUsuario('1')
+#1 /home/iokxowfr/public_html/siprest3/vistas/modulos/aside.php(3): UsuarioControlador::ctrObtenerMenuUsuario('1')
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(149): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 48
+[08-May-2023 14:47:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:18
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(16): UsuarioModelo::mdlIniciarSesion('gmasias', '$2a$07$azybxcag...')
+#1 /home/iokxowfr/public_html/siprest3/vistas/login.php(76): UsuarioControlador->login()
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(221): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 18
+[08-May-2023 14:53:01 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:48
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(48): UsuarioModelo::mdlObtenerMenuUsuario('1')
+#1 /home/iokxowfr/public_html/siprest3/vistas/modulos/aside.php(3): UsuarioControlador::ctrObtenerMenuUsuario('1')
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(149): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 48
+[08-May-2023 14:53:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:48
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(48): UsuarioModelo::mdlObtenerMenuUsuario('1')
+#1 /home/iokxowfr/public_html/siprest3/vistas/modulos/aside.php(3): UsuarioControlador::ctrObtenerMenuUsuario('1')
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(149): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 48
+[08-May-2023 14:57:54 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:48
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(48): UsuarioModelo::mdlObtenerMenuUsuario('1')
+#1 /home/iokxowfr/public_html/siprest3/vistas/modulos/aside.php(3): UsuarioControlador::ctrObtenerMenuUsuario('1')
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(149): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 48
+[08-May-2023 15:00:28 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:48
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(48): UsuarioModelo::mdlObtenerMenuUsuario('1')
+#1 /home/iokxowfr/public_html/siprest3/vistas/modulos/aside.php(3): UsuarioControlador::ctrObtenerMenuUsuario('1')
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(149): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 48
+[08-May-2023 15:04:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:48
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(48): UsuarioModelo::mdlObtenerMenuUsuario('1')
+#1 /home/iokxowfr/public_html/siprest3/vistas/modulos/aside.php(3): UsuarioControlador::ctrObtenerMenuUsuario('1')
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(149): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 48
+[08-May-2023 15:05:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:48
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(48): UsuarioModelo::mdlObtenerMenuUsuario('1')
+#1 /home/iokxowfr/public_html/siprest3/vistas/modulos/aside.php(3): UsuarioControlador::ctrObtenerMenuUsuario('1')
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(149): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 48
+[08-May-2023 15:06:12 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:48
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(48): UsuarioModelo::mdlObtenerMenuUsuario('1')
+#1 /home/iokxowfr/public_html/siprest3/vistas/modulos/aside.php(3): UsuarioControlador::ctrObtenerMenuUsuario('1')
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(149): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 48
+[08-May-2023 15:07:42 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:48
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(48): UsuarioModelo::mdlObtenerMenuUsuario('1')
+#1 /home/iokxowfr/public_html/siprest3/vistas/modulos/aside.php(3): UsuarioControlador::ctrObtenerMenuUsuario('1')
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(149): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 48
+[08-May-2023 16:15:06 America/New_York] PHP Parse error:  syntax error, unexpected '2192' (T_LNUMBER), expecting ')' in /home/iokxowfr/public_html/siprest3/modelos/conexion.php on line 9
+[08-May-2023 16:18:23 America/New_York] PHP Parse error:  syntax error, unexpected '2192' (T_LNUMBER), expecting ')' in /home/iokxowfr/public_html/siprest3/modelos/conexion.php on line 9
+[08-May-2023 16:18:25 America/New_York] PHP Parse error:  syntax error, unexpected '2192' (T_LNUMBER), expecting ')' in /home/iokxowfr/public_html/siprest3/modelos/conexion.php on line 9
+[08-May-2023 16:18:26 America/New_York] PHP Parse error:  syntax error, unexpected '2192' (T_LNUMBER), expecting ')' in /home/iokxowfr/public_html/siprest3/modelos/conexion.php on line 9
+[08-May-2023 16:18:26 America/New_York] PHP Parse error:  syntax error, unexpected '2192' (T_LNUMBER), expecting ')' in /home/iokxowfr/public_html/siprest3/modelos/conexion.php on line 9
+[08-May-2023 16:18:51 America/New_York] PHP Parse error:  syntax error, unexpected '2192' (T_LNUMBER), expecting ')' in /home/iokxowfr/public_html/siprest3/modelos/conexion.php on line 9
+[08-May-2023 16:18:52 America/New_York] PHP Parse error:  syntax error, unexpected '2192' (T_LNUMBER), expecting ')' in /home/iokxowfr/public_html/siprest3/modelos/conexion.php on line 9
+[08-May-2023 16:18:52 America/New_York] PHP Parse error:  syntax error, unexpected '2192' (T_LNUMBER), expecting ')' in /home/iokxowfr/public_html/siprest3/modelos/conexion.php on line 9
+[08-May-2023 16:19:45 America/New_York] PHP Parse error:  syntax error, unexpected '2192' (T_LNUMBER), expecting ')' in /home/iokxowfr/public_html/siprest3/modelos/conexion.php on line 9
+[08-May-2023 16:19:46 America/New_York] PHP Parse error:  syntax error, unexpected '2192' (T_LNUMBER), expecting ')' in /home/iokxowfr/public_html/siprest3/modelos/conexion.php on line 9
+[08-May-2023 16:20:05 America/New_York] PHP Parse error:  syntax error, unexpected '2192' (T_LNUMBER), expecting ')' in /home/iokxowfr/public_html/siprest3/modelos/conexion.php on line 9
+[08-May-2023 16:20:06 America/New_York] PHP Parse error:  syntax error, unexpected '2192' (T_LNUMBER), expecting ')' in /home/iokxowfr/public_html/siprest3/modelos/conexion.php on line 9
+[08-May-2023 16:20:06 America/New_York] PHP Parse error:  syntax error, unexpected '2192' (T_LNUMBER), expecting ')' in /home/iokxowfr/public_html/siprest3/modelos/conexion.php on line 9
+[08-May-2023 16:20:08 America/New_York] PHP Parse error:  syntax error, unexpected '2192' (T_LNUMBER), expecting ')' in /home/iokxowfr/public_html/siprest3/modelos/conexion.php on line 9
+[08-May-2023 16:20:08 America/New_York] PHP Parse error:  syntax error, unexpected '2192' (T_LNUMBER), expecting ')' in /home/iokxowfr/public_html/siprest3/modelos/conexion.php on line 9
+[08-May-2023 16:21:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php:48
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/usuario_controlador.php(48): UsuarioModelo::mdlObtenerMenuUsuario('1')
+#1 /home/iokxowfr/public_html/siprest3/vistas/modulos/aside.php(3): UsuarioControlador::ctrObtenerMenuUsuario('1')
+#2 /home/iokxowfr/public_html/siprest3/vistas/plantilla.php(149): include('/home/iokxowfr/...')
+#3 /home/iokxowfr/public_html/siprest3/controladores/plantilla_controlador.php(9): include('/home/iokxowfr/...')
+#4 /home/iokxowfr/public_html/siprest3/index.php(11): PlantillaControlador->CargarPlantilla()
+#5 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/usuario_modelo.php on line 48

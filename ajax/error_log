@@ -1,0 +1,148 @@
+[06-May-2023 00:16:55 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.1.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[06-May-2023 00:16:56 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 00:21:03 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 00:21:27 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.1.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[06-May-2023 00:21:28 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 00:21:41 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.1.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[06-May-2023 00:21:42 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 00:21:51 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 00:22:08 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 00:22:31 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 00:22:50 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 00:23:29 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 00:35:40 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php:53
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/dashboard_controlador.php(45): DashboardModelo::mdlNotificacion(NULL)
+#1 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(52): DashboardControlador::ctrNotificacion(NULL)
+#2 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(78): AjaxDashboard->getNotificacion(NULL)
+#3 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php on line 53
+[06-May-2023 00:39:58 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 01:07:31 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 01:07:47 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 01:07:56 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 12:44:52 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 12:45:13 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 12:45:28 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 12:46:57 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 12:47:06 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 12:47:19 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[06-May-2023 12:47:39 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/iokxowfr/public_html/siprest3/ajax/clientes_ajax.php on line 141
+[08-May-2023 14:53:02 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php:53
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/dashboard_controlador.php(45): DashboardModelo::mdlNotificacion(NULL)
+#1 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(52): DashboardControlador::ctrNotificacion(NULL)
+#2 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(78): AjaxDashboard->getNotificacion(NULL)
+#3 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php on line 53
+[08-May-2023 14:53:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php:53
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/dashboard_controlador.php(45): DashboardModelo::mdlNotificacion(NULL)
+#1 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(52): DashboardControlador::ctrNotificacion(NULL)
+#2 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(78): AjaxDashboard->getNotificacion(NULL)
+#3 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php on line 53
+[08-May-2023 14:57:54 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php:53
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/dashboard_controlador.php(45): DashboardModelo::mdlNotificacion(NULL)
+#1 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(52): DashboardControlador::ctrNotificacion(NULL)
+#2 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(78): AjaxDashboard->getNotificacion(NULL)
+#3 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php on line 53
+[08-May-2023 15:00:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php:53
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/dashboard_controlador.php(45): DashboardModelo::mdlNotificacion(NULL)
+#1 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(52): DashboardControlador::ctrNotificacion(NULL)
+#2 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(78): AjaxDashboard->getNotificacion(NULL)
+#3 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php on line 53
+[08-May-2023 15:04:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php:53
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/dashboard_controlador.php(45): DashboardModelo::mdlNotificacion(NULL)
+#1 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(52): DashboardControlador::ctrNotificacion(NULL)
+#2 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(78): AjaxDashboard->getNotificacion(NULL)
+#3 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php on line 53
+[08-May-2023 15:05:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php:53
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/dashboard_controlador.php(45): DashboardModelo::mdlNotificacion(NULL)
+#1 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(52): DashboardControlador::ctrNotificacion(NULL)
+#2 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(78): AjaxDashboard->getNotificacion(NULL)
+#3 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php on line 53
+[08-May-2023 15:06:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php:53
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/dashboard_controlador.php(45): DashboardModelo::mdlNotificacion(NULL)
+#1 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(52): DashboardControlador::ctrNotificacion(NULL)
+#2 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(78): AjaxDashboard->getNotificacion(NULL)
+#3 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php on line 53
+[08-May-2023 15:07:42 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php:53
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/dashboard_controlador.php(45): DashboardModelo::mdlNotificacion(NULL)
+#1 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(52): DashboardControlador::ctrNotificacion(NULL)
+#2 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(78): AjaxDashboard->getNotificacion(NULL)
+#3 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php on line 53
+[08-May-2023 16:21:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php:53
+Stack trace:
+#0 /home/iokxowfr/public_html/siprest3/controladores/dashboard_controlador.php(45): DashboardModelo::mdlNotificacion(NULL)
+#1 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(52): DashboardControlador::ctrNotificacion(NULL)
+#2 /home/iokxowfr/public_html/siprest3/ajax/dashboard_ajax.php(78): AjaxDashboard->getNotificacion(NULL)
+#3 {main}
+  thrown in /home/iokxowfr/public_html/siprest3/modelos/dashboard_modelo.php on line 53
+[13-May-2023 13:30:51 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[13-May-2023 13:32:39 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[13-May-2023 13:32:41 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[13-May-2023 13:33:27 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[13-May-2023 14:25:03 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[13-May-2023 19:28:12 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[15-May-2023 13:03:05 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[16-May-2023 12:37:40 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[16-May-2023 13:42:42 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[16-May-2023 13:52:34 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[16-May-2023 13:56:37 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[16-May-2023 14:14:55 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[16-May-2023 14:23:28 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[16-May-2023 17:57:08 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 12:17:22 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 12:20:58 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 12:21:05 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 12:23:55 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 12:23:57 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 12:24:04 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 13:46:52 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 14:02:26 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 14:03:53 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 14:03:57 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 14:13:40 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 14:14:35 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 14:31:28 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 14:34:10 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 14:34:15 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 14:52:46 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 15:30:38 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 15:31:57 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 15:49:43 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 15:49:53 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 15:49:55 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 15:50:19 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 15:50:38 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 16:13:29 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 16:19:01 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 16:53:17 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 16:59:47 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 17:26:20 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 17:27:14 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 17:28:06 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 17:30:50 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 17:30:58 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 17:31:08 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 17:38:23 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 17:38:24 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 17:38:38 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 17:38:58 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 17:39:17 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 17:39:59 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 17:40:06 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24
+[17-May-2023 17:40:22 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/iokxowfr/public_html/siprest3/vendor/composer/platform_check.php on line 24

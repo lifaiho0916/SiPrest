@@ -1,0 +1,125 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*.round_table {
+                    border-collapse:separate;
+                    border-spacing: 10;
+                    border:solid black 1px;
+                    border-radius:10px;
+                    -moz-border-radius:10px;
+                    -webkit-border-radius: 5px;    
+                }*/
+
+
+
+a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+body {
+  position: relative;
+  /* width: 21cm;  
+  height: 29.7cm;  */
+  margin: 0 auto; 
+  color: #000000;
+  background: #FFFFFF; 
+  font-family: Arial, sans-serif; 
+  font-size: 12px; 
+  font-family: Arial;
+ 
+}
+
+header {
+  padding: 10px 0;
+  margin-bottom: 1px;
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+
+
+table th,
+table td {
+  text-align: center;
+}
+
+table th {
+  padding: 5px 10px;
+  color: #000000;
+
+  white-space: nowrap;        
+  font-weight: normal;
+
+}
+
+table .service,
+table .desc {
+  text-align: center;
+}
+table .negrita
+{
+  text-decoration: #000000;  
+}
+
+table td {
+  padding: 5px;
+  text-align: right;
+}
+
+table td.service,
+table td.desc {
+  vertical-align: top;
+}
+
+
+
+table td.grand {
+  border-top: 1px solid #000000;;
+}
+
+#notices .notice {
+  color: #000000;
+  font-size: 1.2em;
+}
+
+footer {
+  color: #000000;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #C1CED9;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.tabla-con-borde-redondeado {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #000;
+  border-radius: 10px;
+  overflow: hidden;
+ 
+}
+
+
+
+
+		@page {
+		margin: 8mm;
+		margin-header: 0mm;
+		margin-footer: 0mm;
+		odd-footer-name: html_myfooter1;
+		}
+
